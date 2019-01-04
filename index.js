@@ -1,7 +1,8 @@
 module.exports = () => {
   const fizzbuzz = [];
-  for (let i = 0; i < 100; i++) {
-    fizzbuzz.push(i+1);
+  for (let i = 1; i <= 100; i++) {
+    if (i === 3) fizzbuzz.push('Fizz');
+    else fizzbuzz.push(i);
   }
   return fizzbuzz;
 };
