@@ -30,3 +30,18 @@ test('5 (index 4) has to be Buzz', () => {
   const fbArray = fizzbuzz();
   expect(fbArray[4]).toBe('Buzz');
 });
+
+test('10 (index 9) has to be Buzz', () => {
+  const fbArray = fizzbuzz();
+  expect(fbArray[9]).toBe('Buzz');
+});
+
+test('15 (index 14) has to be FizzBuzz', () => {
+  const fbArray = fizzbuzz();
+  expect(fbArray[14]).toBe('FizzBuzz');
+});
+
+test('30 (index 29) has to be FizzBuzz', () => {
+  const fbArray = fizzbuzz();
+  expect(fbArray[29]).toBe('FizzBuzz');
+});
