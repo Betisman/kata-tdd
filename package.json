@@ -1,0 +1,22 @@
+{
+  "name": "kata-tdd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Betisman/kata-tdd.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Betisman/kata-tdd/issues"
+  },
+  "homepage": "https://github.com/Betisman/kata-tdd#readme",
+  "devDependencies": {
+    "jest": "^23.6.0"
+  }
+}
