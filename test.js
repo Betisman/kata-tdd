@@ -16,10 +16,12 @@ test('index 0 has to be 1', () => {
   expect(fbArray[0]).toBe(1);
 });
 
-
 test('3 (index 2) has to be Fizz', () => {
   const fbArray = fizzbuzz();
   expect(fbArray[2]).toBe('Fizz');
 });
 
-
+test('6 (index 5) has to be Fizz', () => {
+  const fbArray = fizzbuzz();
+  expect(fbArray[5]).toBe('Fizz');
+});
